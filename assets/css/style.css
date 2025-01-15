@@ -240,27 +240,27 @@ body {
   font-weight: bold;
   color: #29abe1;
 }
-.webview .portfolios .container .projetos {
+.webview .portfolios .container .p-projetos {
   width: 100%;
 }
-.webview .portfolios .container .projetos .projeto {
+.webview .portfolios .container .p-projetos .projeto {
   width: 100%;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: repeat(3, auto);
   row-gap: 10px;
 }
-.webview .portfolios .container .projetos .projeto .photos {
+.webview .portfolios .container .p-projetos .projeto .photos {
   width: 100%;
   height: 100%;
   border-radius: 4px;
 }
-.webview .portfolios .container .projetos .projeto .photos .img {
+.webview .portfolios .container .p-projetos .projeto .photos .img {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.webview .portfolios .container .projetos .projeto .photos .img:houver .descricao {
+.webview .portfolios .container .p-projetos .projeto .photos .img:hover .descricao {
   position: absolute;
   display: flex;
   width: 100%;
@@ -270,18 +270,18 @@ body {
   left: 0;
   z-index: 9999;
 }
-.webview .portfolios .container .projetos .projeto .photos .img:houver .descricao p {
+.webview .portfolios .container .p-projetos .projeto .photos .img:hover .descricao p {
   display: block;
   color: #ffffff;
 }
-.webview .portfolios .container .projetos .projeto .photos .img img {
+.webview .portfolios .container .p-projetos .projeto .photos .img img {
   width: 100%;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.webview .portfolios .container .projetos .projeto .photos .descricao {
+.webview .portfolios .container .p-projetos .projeto .photos .descricao {
   display: none;
   flex-direction: row;
   flex-wrap: wrap;
@@ -290,11 +290,113 @@ body {
   width: 100%;
   min-height: 50px;
 }
-.webview .portfolios .container .projetos .projeto .photos .descricao p {
+.webview .portfolios .container .p-projetos .projeto .photos .descricao p {
   display: none;
   font-family: "Ruda", sans-serif;
   font-weight: 400;
   color: #ffffff;
+}
+
+.webview .contato {
+  width: 100%;
+  margin-bottom: 130px;
+}
+.webview .contato .container {
+  padding: 10px;
+}
+.webview .contato .container .title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.webview .contato .container .title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29abe1;
+}
+.webview .contato .container .formulario {
+  width: 100%;
+}
+.webview .contato .container .formulario form {
+  width: 100%;
+}
+.webview .contato .container .formulario form .form-group {
+  width: 100%;
+}
+.webview .contato .container .formulario form .form-group .controls {
+  width: 100%;
+  min-height: 70px;
+}
+.webview .contato .container .formulario form .form-group .controls label {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-weight: bold;
+  color: #29abe1;
+}
+.webview .contato .container .formulario form .form-group .controls input {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #29abe1;
+}
+.webview .contato .container .formulario form .form-group .controls input:active {
+  border: 1px solid #29abe1;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .controls input:focus {
+  border: 1px solid #29abe1;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .controls textarea {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+  border: 1px solid #29abe1;
+}
+.webview .contato .container .formulario form .form-group .controls textarea:active {
+  border: 1px solid #29abe1;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .controls textarea:focus {
+  border: 1px solid #29abe1;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .btn-form-send {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  margin-top: 20px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #29abe1;
+  color: #ffffff;
+  border-radius: 2px;
+}
+.webview .contato .container .formulario form .form-group .btn-form-send:hover {
+  background-color: #29abe1;
+}
+
+.webview footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: config-color-green;
+}
+.webview footer span {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  color: #29abe1;
+  margin-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
