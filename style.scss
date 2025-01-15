@@ -263,7 +263,7 @@ body {
           color: config.$color-green;
         }
       }
-      .projetos {
+      .p-projetos {
         width: 100%;
 
         .projeto {
@@ -281,9 +281,10 @@ body {
             .img {
               width: 100%;
               height: 100%;
+
               position: relative;
 
-              &:houver {
+              &:hover {
                 .descricao {
                   position: absolute;
                   display: flex;
@@ -326,6 +327,115 @@ body {
           }
         }
       }
+    }
+  }
+}
+.webview {
+  .contato {
+    width: 100%;
+    margin-bottom: 130px;
+
+    .container {
+      padding: 10px;
+
+      .title {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        h2 {
+          @include config.font-subtitle;
+          font-size: 1.6rem;
+          font-weight: bold;
+          color: config.$color-green;
+        }
+      }
+      .formulario {
+        width: 100%;
+
+        form {
+          width: 100%;
+
+          .form-group {
+            width: 100%;
+
+            .controls {
+              width: 100%;
+              min-height: 70px;
+
+              label {
+                @include config.font-paragraf;
+                font-weight: bold;
+                color: config.$color-green;
+              }
+              input {
+                @include config.font-paragraf;
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                border: 1px solid config.$color-green;
+
+                &:active {
+                  border: 1px solid config.$color-green;
+                  border-radius: 2px;
+                }
+                &:focus {
+                  border: 1px solid config.$color-green;
+                  border-radius: 2px;
+                }
+              }
+              textarea {
+                @include config.font-paragraf;
+                width: 100%;
+                height: 180px;
+                padding: 10px;
+                border: 1px solid config.$color-green;
+
+                &:active {
+                  border: 1px solid config.$color-green;
+                  border-radius: 2px;
+                }
+                &:focus {
+                  border: 1px solid config.$color-green;
+                  border-radius: 2px;
+                }
+              }
+            }
+            .btn-form-send {
+              @include config.font-paragraf;
+              margin-top: 20px;
+              width: 140px;
+              height: 40px;
+              border: none;
+              background-color: config.$color-green;
+              color: config.$color-white;
+              border-radius: 2px;
+
+              &:hover {
+                background-color: config.$color-green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.webview {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: config-color-green;
+
+    span {
+      @include config.font-paragraf;
+      color: config.$color-green;
+      margin-left: 20px;
     }
   }
 }
