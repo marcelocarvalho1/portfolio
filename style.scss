@@ -62,7 +62,7 @@ body {
   .container {
     padding: 10px;
 
-    .title {
+    .title h2 {
       width: 100%;
       text-align: center;
       margin-top: 10px;
@@ -120,26 +120,26 @@ body {
               display: flex;
               flex-direction: row;
               align-items: center;
-              min-height: 25px;
-            }
-            .h-porcentagem-geral {
-              position: relative;
-              display: flex;
-              flex-direction: row;
-              align-items: center;
               width: 100%;
-              height: 6px;
-              border-radius: 6px;
+              min-height: 25px;
 
+              .h-porcentagem-geral {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 100%;
+                height: 6px;
+                border-radius: 6px;
 
-            .h-porcentagem-conhecimento{
-              height: 100%;
-            }
-            span{
-              @include config.font-paragraf;
-              margin-left: 10px;
-
-            }
+                .h-porcentagem-conhecimento {
+                  height: 100%;
+                }
+                span {
+                  @include config.font-paragraf;
+                  margin-left: 10px;
+                }
+              }
             }
           }
         }
@@ -147,5 +147,185 @@ body {
     }
   }
 }
+.webview {
+  .servicos {
+    width: 100%;
+    background-color: config.$color-green;
+    color: config.$color-white;
 
+    .container {
+      padding: 10px;
 
+      .s-title {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 30px;
+
+        h2 {
+          @include config.font-paragraf;
+          font-size: 1.6rem;
+          font-weight: bold;
+          color: config.$color-black;
+        }
+      }
+
+      .s-carrousel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+
+        .s-carrousel-container {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+
+          .s-carrousel-item {
+            padding: 10px;
+            min-height: 260px;
+            background-color: config.$color-white;
+            color: config.$color-green;
+
+            .title {
+              width: 100%;
+              padding: 10px;
+
+              p {
+                @include config.font-paragraf;
+                font-size: 1.6rem;
+                font-weight: bold;
+                margin: 0;
+              }
+            }
+
+            .body {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              min-height: 200px;
+
+              .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 10px;
+
+                span i {
+                  font-size: 38px;
+                  color: config.$color-green; // Adiciona cor ao ícone
+                }
+              }
+
+              .texto {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+
+                p {
+                  @include config.font-paragraf;
+                  text-align: center;
+                  font-size: 1.4rem;
+                  color: config.$color-green;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.webview {
+  .portfolios {
+    width: 100%;
+    min-height: 100vh;
+
+    .container {
+      padding: 10px;
+
+      .p-title {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        h2 {
+          @include config.font-subtitle;
+          font-size: 1.6rem;
+          font-weight: bold;
+          color: config.$color-green;
+        }
+      }
+      .projetos {
+        width: 100%;
+
+        .projeto {
+          width: 100%;
+          display: grid;
+          grid-template-columns: 100%;
+          grid-template-rows: repeat(3, auto);
+          row-gap: 10px;
+
+          .photos {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+
+            .img {
+              width: 100%;
+              height: 100%;
+              position: relative;
+
+              &:houver {
+                .descricao {
+                  position: absolute;
+                  display: flex;
+                  width: 100%;
+                  height: 50px;
+                  background-color: #29ae81;
+                  bottom: 0;
+                  left: 0;
+                  z-index: 9999;
+
+                  p {
+                    display: block;
+                    color: config.$color-white;
+                  }
+                }
+              }
+              img {
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+              }
+            }
+            .descricao {
+              display: none;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              min-height: 50px;
+
+              p {
+                display: none;
+                @include config.font-paragraf;
+                color: config.$color-white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

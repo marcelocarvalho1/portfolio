@@ -1,3 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html,
+body {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.webview {
+  width: 100%;
+  margin: auto;
+}
+.webview .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #29abe1;
+  color: #ffffff;
+}
+.webview .intro .container h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.webview .intro .container p {
+  font-size: 1rem;
+  text-align: center;
+}
+.webview .intro .container .m-auto-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+.webview .intro .container .m-auto-btn .btn-portfolio {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  width: 160px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+.webview .sobre {
+  width: 100%;
+}
+.webview .container {
+  padding: 10px;
+}
+.webview .container .title h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.webview .container .title h2 h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29abe1;
+}
+.webview .container .row {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.webview .container .row .c-photo {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.webview .container .row .c-photo img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.webview .container .row .c-descricao {
+  width: 100%;
+}
+.webview .container .row .c-descricao p {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.webview .container .row .c-descricao .habilitades {
+  width: 100%;
+}
+.webview .container .row .c-descricao .habilitades .h-item {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.webview .container .row .c-descricao .habilitades .h-item .h-title {
+  width: 100%;
+}
+.webview .container .row .c-descricao .habilitades .h-item .h-title h3 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.webview .container .row .c-descricao .habilitades .h-item .h-c-porcentagem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 25px;
+}
+.webview .container .row .c-descricao .habilitades .h-item .h-c-porcentagem .h-porcentagem-geral {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 6px;
+  border-radius: 6px;
+}
+.webview .container .row .c-descricao .habilitades .h-item .h-c-porcentagem .h-porcentagem-geral .h-porcentagem-conhecimento {
+  height: 100%;
+}
+.webview .container .row .c-descricao .habilitades .h-item .h-c-porcentagem .h-porcentagem-geral span {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.webview .servicos {
+  width: 100%;
+  background-color: #29abe1;
+  color: #ffffff;
+}
+.webview .servicos .container {
+  padding: 10px;
+}
+.webview .servicos .container .s-title {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0 30px;
+}
+.webview .servicos .container .s-title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000000;
+}
+.webview .servicos .container .s-carrousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item {
+  padding: 10px;
+  min-height: 260px;
+  background-color: #ffffff;
+  color: #29abe1;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .title {
+  width: 100%;
+  padding: 10px;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .title p {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 200px;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .icon span i {
+  font-size: 38px;
+  color: #29abe1;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.webview .servicos .container .s-carrousel .s-carrousel-container .s-carrousel-item .body .texto p {
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #29abe1;
+  margin: 0;
+}
+
+.webview .portfolios {
+  width: 100%;
+  min-height: 100vh;
+}
+.webview .portfolios .container {
+  padding: 10px;
+}
+.webview .portfolios .container .p-title {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.webview .portfolios .container .p-title h2 {
+  font-family: "Ruda", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #29abe1;
+}
+.webview .portfolios .container .projetos {
+  width: 100%;
+}
+.webview .portfolios .container .projetos .projeto {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, auto);
+  row-gap: 10px;
+}
+.webview .portfolios .container .projetos .projeto .photos {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.webview .portfolios .container .projetos .projeto .photos .img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.webview .portfolios .container .projetos .projeto .photos .img:houver .descricao {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #29ae81;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+}
+.webview .portfolios .container .projetos .projeto .photos .img:houver .descricao p {
+  display: block;
+  color: #ffffff;
+}
+.webview .portfolios .container .projetos .projeto .photos .img img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.webview .portfolios .container .projetos .projeto .photos .descricao {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+}
+.webview .portfolios .container .projetos .projeto .photos .descricao p {
+  display: none;
+  font-family: "Ruda", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
 
 /*# sourceMappingURL=style.css.map */
