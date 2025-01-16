@@ -1,291 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Portfólio</title>
-  </head>
-  <body>
-    <div class="webview">
-      <section class="intro">
-        <div class="container">
-          <h1>Olá, eu sou o <span>Marcelo </span></h1>
-          <p>Desenvolvedor Web</p>
-          <div class="m-auto-btn">
-            <button class="btn-portfolio">Portfolio</button>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+ 
+  
+  <title>Portfólio</title>
+</head>
+<body>
+  <div class="webview">
+    <section class="intro">
+      <div class="container">
+        <h1>Olá, eu sou o <span>Marcelo</span></h1>
+        <p>Desenvolvedor Web</p>
+        <div class="m-auto-btn">
+          <button class="btn-portfolio btn btn-primary">Portfolio</button>
         </div>
-      </section>
-      <section class="sobre">
+      </div>
+    </section>
+
+<section class="sobre">
         <div class="container">
           <div class="title">
             <h2>Sobre mim</h2>
           </div>
           <div class="row">
-            <div class="c-photo">
-              <img src="./assets/img/profile/beard-1845166_1280.jpg" alt="" />
+            <div class="col-md-6">
+              <div class="c-photo">
+                <img src="./assets/img/profile/marcelo.jpeg" alt="Imagem de perfil" class="img-fluid" />
+              </div>
             </div>
-            <div class="c-descricao">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                quaerat aspernatur maxime sed accusantium recusandae modi, nihil
-                necessitatibus dignissimos esse vitae placeat reprehenderit
-                blanditiis atque facere autem maiores unde quasi.
-              </p>
+            <div class="col-md-6">
+              <div class="c-descricao">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                  quaerat aspernatur maxime sed accusantium recusandae modi, nihil
+                  necessitatibus dignissimos esse vitae placeat reprehenderit
+                  blanditiis atque facere autem maiores unde quasi.
+                  loreLorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                  quaerat aspernatur maxime sed accusantium recusandae modi.
+                </p>
+              </div>
             </div>
-            <div class="habilidades">
-              <div class="h-item">
-                <div class="h-title">
-                  <h3>HTML e CSS</h3>
-                </div>
+          </div>
 
-                <div class="h-c-porcentagem">
-                  <div class="h-porcentagem-geral">
-                    <div class="h-porcentagem-conhecimento"></div>
-                    <span>90%</span>
-                  </div>
-                </div>
+
+
+          <section class="habilidades">
+            <h3>Ferramentas e Tecnologias</h3>
+            <div class="tech-grid">
+              <div class="tech-item">
+                <img src="./assets/img/tech/html5.svg" alt="HTML">
+                <p>HTML</p>
               </div>
-              <div class="h-item">
-                <div class="h-title">
-                  <h3>HTML e CSS</h3>
-                </div>
-
-                <div class="h-c-porcentagem">
-                  <div class="h-porcentagem-geral">
-                    <div class="h-porcentagem-conhecimento"></div>
-                    <span>90%</span>
-                  </div>
-                </div>
+              <div class="tech-item">
+                <img src="./assets/img/tech/css.svg" alt="CSS">
+                <p>CSS</p>
               </div>
-              <div class="h-item">
-                <div class="h-title">
-                  <h3>HTML e CSS</h3>
-                </div>
-
-                <div class="h-c-porcentagem">
-                  <div class="h-porcentagem-geral">
-                    <div class="h-porcentagem-conhecimento"></div>
-                    <span>90%</span>
-                  </div>
-                </div>
+              <div class="tech-item">
+                <img src="./assets/img/tech/javascript.svg" alt="JavaScript">
+                <p>JavaScript</p>
               </div>
-              <div class="h-item">
-                <div class="h-title">
-                  <h3>HTML e CSS</h3>
-                </div>
-
-                <div class="h-c-porcentagem">
-                  <div class="h-porcentagem-geral">
-                    <div class="h-porcentagem-conhecimento"></div>
-                    <span>90%</span>
-                  </div>
-                </div>
+              <div class="tech-item">
+                 <img src="./assets/img/tech/git.svg" alt="Git">
+                <p>Git</p>
               </div>
-              <div class="h-item">
-                <div class="h-title">
-                  <h3>HTML e CSS</h3>
-                </div>
-
-                <div class="h-c-porcentagem">
-                  <div class="h-porcentagem-geral">
-                    <div class="h-porcentagem-conhecimento"></div>
-                    <span>90%</span>
-                  </div>
-                </div>
+              <div class="tech-item">
+                <img src="./assets/img/tech/github.svg" alt="GitHub">
+                <p>GitHub</p>
               </div>
-              
-              <section class="servicos">
-                <div class="container">
-                  <div class="s-title">
-                    <h2>Serviços</h2>
-                  </div>
-                  <div class="s-carrousel">
-                    <div class="s-carrousel-container">
-                      <div class="owl-carrousel owl-theme">
-                        <div class="item s-carrousel-item">
-                          <div class="title">
-                            <p>01</p>
-                          </div>
-                          <div class="body">
-                            <div class="icon">
-                              <span></span>
-                            </div>
-                            <div class="texto">
-                              <p>Sites</p>
-                            </div>
-                          </div>
-                        </div>
-              
-                        <div class="item s-carrousel-item">
-                          <div class="title">
-                            <p>02</p>
-                          </div>
-                          <div class="body">
-                            <div class="icon">
-                              <span></span>
-                            </div>
-                            <div class="texto">
-                              <p>Sites</p>
-                            </div>
-                          </div>
-                        </div>
-              
-                        <div class="item s-carrousel-item">
-                          <div class="title">
-                            <p>03</p>
-                          </div>
-                          <div class="body">
-                            <div class="icon">
-                              <span></span>
-                            </div>
-                            <div class="texto">
-                              <p>e-commerce</p>
-                            </div>
-                          </div>
-                        </div>
-              
-                        <div class="item s-carrousel-item">
-                          <div class="title">
-                            <p>04</p>
-                          </div>
-                          <div class="body">
-                            <div class="icon">
-                              <span></span>
-                            </div>
-                            <div class="texto">
-                              <p>Blog</p>
-                            </div>
-                          </div>
-                        </div>
-              
-                        <div class="item s-carrousel-item">
-                          <div class="title">
-                            <p>05</p>
-                          </div>
-                          <div class="body">
-                            <div class="icon">
-                              <span></span>
-                            </div>
-                            <div class="texto">
-                              <p>Jogos</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
+              <div class="tech-item">
+                <img src="caminho-da-imagem/redux.png" alt="Redux">
+                <p>Redux</p>
+              </div>
+              <div class="tech-item">
+                <img src="caminho-da-imagem/ts.png" alt="TypeScript">
+                <p>TypeScript</p>
+              </div>
+              <div class="tech-item">
+                <img src="caminho-da-imagem/tailwind.png" alt="Tailwind CSS">
+                <p>Tailwind</p>
+              </div>
+              <div class="tech-item">
+                <img src="caminho-da-imagem/styled.png" alt="Styled Components">
+                <p>Styled Components</p>
+              </div>
+              <div class="tech-item">
+                <img src="caminho-da-imagem/scss.png" alt="SCSS">
+                <p>SCSS</p>
+              </div>
+            </div>
+          </section>
+          
 
-              <section class="portfolios">
-                <div class="container">
-                  <div class="p-title">
-                    <h2> Porfólios</h2>
-                  </div>
-                  <div class="p-projetos">
-                    <div class="projeto">
-                      <div class="photos">
-                        <div class="img">
-                          <img src="./assets/img/projetos/img-1.svg" alt="">
-                          <div class="descricao">
-                            <p> Projeto 01</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="photos">
-                        <div class="img">
-                          <img src="./assets/img/projetos/img-2.svg" alt="">
-                          <div class="descricao">
-                            <p> Projeto 02</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="photos">
-                        <div class="img">
-                          <img src="./assets/img/projetos/img-3.svg" alt="">
-                          <div class="descricao">
-                            <p> Projeto 03</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="photos">
-                        <div class="img">
-                          <img src="./assets/img/projetos/img-4.svg" alt="">
-                          <div class="descricao">
-                            <p> Projeto 04</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="photos">
-                        <div class="img">
-                          <img src="./assets/img/projetos/img-5.svg" alt="">
-                          <div class="descricao">
-                            <p> Projeto 05</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              
-      <section class="contato">
+    <section class="projetos">
+       <h2>Projetos</h2>
+      <div class="projeto">
+        <img src="./assets/img/projetos/img-1.svg" alt="Projeto 1">
+        <div class="descricao">
+          <h3>OneHealth</h3>
+          <p>Uma API que permite um agendamento rápido e simplificado do paciente com o médico, que também serve para registrar e guardar diagnósticos médicos, armazenando de forma organizada e de fácil acesso os relatórios médicos. Nessa API será possível agendar consultas de acordo com a disponibilidade do médico cadastrado, o médico terá acesso a todo o histórico do paciente cadastrado, o paciente não terá que se preocupar em guardar papéis ou procurar o médico que fez uma consulta, a aplicação fará isso por ele.</p>
+        </div>
+      </div>
+  
+      <div class="projeto">
+        <img src="./assets/img/projetos/img-2.svg" alt="Projeto 2">
+        <div class="descricao">
+          <h3>Outfit Commerce</h3>
+          <p>Uma API de E-Commerce desenvolvida em Python com Django Rest Framework usando Generic View, Model Serializer e Postgres. A API tem o propósito principal de gerenciar um e-commerce de roupas usando banco de dados relacionais, isto é, implementação de relacionamento 1:1, 1:N e N:N entre as tabelas de usuário, endereço, produto, carrinho, pedido, lista de favoritos, avaliações, cadastro e uso de cupons. Conseguinte está implementado autenticação de rotas com JWT Token e acesso a rotas restritas apenas ao próprio usuário.</p>
+        </div>
+      </div>
+    </section>
+ <section class="contato">
         <div class="container">
           <div class="title">
             <h2>Contato</h2>
           </div>
           <div class="formulario">
-            <form>
+            <form id="my-form" action="https://formspree.io/f/xkggawwy" method="POST">
               <div class="form-group">
-                <div class="controls">
-                  <label for="nome"> Nome:</label>
-                  <input type="text" name="nome" id="nome" required />
-                </div>
-                <div class="controls">
-                  <label for="sobrenome"> Sobre nome:</label>
-                  <input type="text" name="sobrenome" id="sobrenome" required />
-                </div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" required />
               </div>
               <div class="form-group">
-                <div class="controls">
-                  <label for="email"> Email:</label>
-                  <input type="email" name="email" id="email" required />
-                </div>
-                <div class="controls">
-                  <label for="whatsapp"> Whatsapp:</label>
-                  <input type="text" name="whatsapp" id="whatsapp" required />
-                </div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" class="form-control" required />
               </div>
               <div class="form-group">
-                <div class="controls">
-                  <label for="mensagem"> Mensagem:</label>
-                  <textarea
-                    name="mensagem"
-                    id="mensagem"
-                    cols="30"
-                    rows="10"
-                  ></textarea>
-                </div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" class="form-control" required />
               </div>
-              <div class="form-group m-auto">
-                <button class="btn-form-send">Enviar</button>
+              <div class="form-group">
+                <label for="whatsapp">Contato:</label>
+                <input type="text" name="contato" id="contato" class="form-control" required />
               </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" class="form-control" rows="5"></textarea>
+              </div>
+              <button id="my-form-button" class="btn btn-success">Enviar</button>
             </form>
-          </div>
+            <p id="m-status"></p>
+            
         </div>
       </section>
+
+      <div class="container-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=5511987654321&text=Olá!%20Sou%20interessado%20em%20um%20projeto%20desenvolvido%20por%20Victor%20Ribeiro%20Silva." target="_blank">
+          <img src="./assets/img/whatsapp/whatsapp.svg" alt="Whatsapp Icon" />
+        </a>
+      </div>
+
       <footer>
         <span> &copy; Todos os direitos reservados.</span>
       </footer>
     </div>
-  </body>
-  <script src="./assets/js/jquery/jquery-3.5.0min.js"></script>
-  <script src="./assets/js/mask-jquery/jquery.mask.min.js"></script>
-</html>
+
