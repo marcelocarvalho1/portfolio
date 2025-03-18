@@ -2,6 +2,7 @@
 .webview .sobre .container {
   max-width: 900px;
   margin: 30px auto; /* Centraliza o contêiner */
+  padding: 20px auto;
 }
 
 .webview .sobre .container .title h2 {

@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #29ae81;
+  background-image: radial-gradient(circle at 112.35% 50%, #b643ea 0, #9832e0 25%, #741dd4 50%, #4907c8 75%, #0000bf 100%);
   color: #fff;
 }
 

@@ -47,6 +47,7 @@ const Habilidades = () => {
           <img src={REACT} alt="React" />
           <p>React</p>
         </div>
+        
       </div>
     </section>
   );
