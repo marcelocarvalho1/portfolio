@@ -1,0 +1,37 @@
+/* sobre.css */
+.webview .sobre .container {
+  max-width: 900px;
+  margin: 30px auto; /* Centraliza o contêiner */
+}
+
+.webview .sobre .container .title h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center; /* Centraliza o título */
+}
+
+.webview .sobre .container .row {
+  display: flex;
+  align-items: center; /* Alinha verticalmente a foto e o texto */
+  gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.webview .sobre .container .c-photo {
+  flex: 0 0 auto; /* A foto não irá crescer ou encolher */
+}
+
+.webview .sobre .container .c-photo img {
+  width: 200px; /* Ajuste o tamanho da imagem */
+  border-radius: 50%;
+  margin-right: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.webview .sobre .container .c-descricao {
+  text-align: left; /* Mantém o texto alinhado à esquerda */
+  line-height: 1.5;
+  color: #000000;
+  flex: 1; /* O texto ocupa o restante do espaço */
+}

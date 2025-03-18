@@ -1,0 +1,48 @@
+/* habilidades.css */
+.habilidades {
+    background-color: #ffffff;
+    padding: 20px;
+    
+  }
+  
+  .habilidades h3 {
+    font-size: 1.8rem;
+    margin: 30px;
+    color: #000000;
+    font-weight: bold;
+    
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .tech-item {
+    display: grid;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+  .tech-item img {
+    max-width: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .tech-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .tech-item p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
