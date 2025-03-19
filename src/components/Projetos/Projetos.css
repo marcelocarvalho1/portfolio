@@ -1,43 +1,48 @@
-/* projetos.css */
 .projetos h2 {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
-    margin: 50px;
-    font-weight: bold;
-    color: #000000;
-  }
-  
-  .projeto {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
-    padding: 80px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .projeto:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .projeto img {
-    width: 100px;
-    border-radius: 8px;
-  }
-  
-  .projeto .descricao h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 5px;
-  }
-  
-  .projeto .descricao p {
-    color: #666;
-    line-height: 1.5;
-  }
-  
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  margin: 20px 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.projeto {
+  width: 90%;
+  height: auto;
+  margin: 20px auto;
+}
+
+.projeto {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 80px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.projeto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.projeto img {
+  width: 100px;
+  border-radius: 8px;
+}
+
+.projeto .descricao h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.projeto .descricao p {
+  color: #666;
+  line-height: 1.5;
+}
