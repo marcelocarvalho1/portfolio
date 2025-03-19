@@ -2,7 +2,7 @@
 .webview .sobre .container {
   max-width: 900px;
   margin: 30px auto; /* Centraliza o contêiner */
-  padding: 20px auto;
+  padding: 20px; /* Corrigido para um valor fixo */
 }
 
 .webview .sobre .container .title h2 {
@@ -15,24 +15,66 @@
 
 .webview .sobre .container .row {
   display: flex;
-  align-items: center; /* Alinha verticalmente a foto e o texto */
+  align-items: center;
   gap: 20px; /* Espaço entre a imagem e o texto */
 }
 
+/* 📷 Ajuste da imagem */
 .webview .sobre .container .c-photo {
-  flex: 0 0 auto; /* A foto não irá crescer ou encolher */
+  flex: 0 0 auto;
 }
 
 .webview .sobre .container .c-photo img {
-  width: 200px; /* Ajuste o tamanho da imagem */
+  width: 180px; /* Ajustado para um tamanho menor */
   border-radius: 50%;
-  margin-right: 50px;
+  margin-right: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .webview .sobre .container .c-descricao {
-  text-align: left; /* Mantém o texto alinhado à esquerda */
+  text-align: left;
   line-height: 1.5;
   color: #000000;
-  flex: 1; /* O texto ocupa o restante do espaço */
+  flex: 1;
+}
+
+/* 📱 Responsividade para telas menores */
+@media (max-width: 768px) {
+  .webview .sobre .container {
+    padding: 15px; /* Menos espaçamento */
+  }
+
+  .webview .sobre .container .row {
+    flex-direction: column; /* Coloca a imagem acima do texto */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .webview .sobre .container .c-photo img {
+    width: 150px; /* Imagem menor */
+    margin-right: 0; /* Remove a margem lateral */
+    margin-bottom: 15px; /* Adiciona espaço abaixo da imagem */
+  }
+
+  .webview .sobre .container .c-descricao {
+    text-align: center; /* Centraliza o texto */
+  }
+}
+
+/* 📱 Responsividade para telas muito pequenas (celulares pequenos) */
+@media (max-width: 480px) {
+  .webview .sobre .container {
+    padding: 10px; /* Reduz ainda mais o padding */
+  }
+
+  .webview .sobre .container .title h2 {
+    font-size: 1.4rem; /* Título um pouco menor */
+  }
+
+  .webview .sobre .container .c-photo img {
+    width: 120px; /* Imagem ainda menor */
+  }
+
+  .webview .sobre .container .c-descricao {
+    font-size: 14px; /* Texto um pouco menor */
+  }
 }

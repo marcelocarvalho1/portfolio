@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import './Projetos.css'
-import PROJETO1 from '../../assets/projetos/img-1.svg';
-import PROJETO2 from '../../assets/projetos/img-2.svg';
-import PROJETO3 from '../../assets/projetos/img-3.svg';
-import PROJETO4 from '../../assets/projetos/img-4.svg';
+import "./Projetos.css";
+import PROJETO1 from "../../assets/projetos/img-1.svg";
+import PROJETO2 from "../../assets/projetos/img-2.svg";
+import PROJETO3 from "../../assets/projetos/img-3.svg";
+import PROJETO4 from "../../assets/projetos/img-4.svg";
 
 const Projetos = () => {
   return (
