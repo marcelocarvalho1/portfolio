@@ -1,80 +1,84 @@
-/* sobre.css */
-.webview .sobre .container {
-  max-width: 900px;
-  margin: 30px auto; /* Centraliza o contêiner */
-  padding: 20px; /* Corrigido para um valor fixo */
+
+
+.container-sobre {
+  max-width: 90%; 
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
-.webview .sobre .container .title h2 {
+
+.titulo-sobre {
   font-size: 1.6rem;
   font-weight: bold;
-  color: #000000;
+  color: #000;
   margin-bottom: 20px;
-  text-align: center; /* Centraliza o título */
+  text-align: center;
 }
 
-.webview .sobre .container .row {
+.sobre-row {
   display: flex;
   align-items: center;
-  gap: 20px; /* Espaço entre a imagem e o texto */
+  gap: 20px;
+  max-width: 90%; 
+  margin: 50px auto;
 }
 
-/* 📷 Ajuste da imagem */
-.webview .sobre .container .c-photo {
+.sobre-foto {
   flex: 0 0 auto;
 }
 
-.webview .sobre .container .c-photo img {
-  width: 180px; /* Ajustado para um tamanho menor */
+.sobre-foto img {
+  width: 180px;
   border-radius: 50%;
   margin-right: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.webview .sobre .container .c-descricao {
+.sobre-descricao {
   text-align: left;
   line-height: 1.5;
-  color: #000000;
+  color: #000;
   flex: 1;
 }
 
-/* 📱 Responsividade para telas menores */
 @media (max-width: 768px) {
-  .webview .sobre .container {
-    padding: 15px; /* Menos espaçamento */
+  .container-sobre {
+    padding: 15px;
   }
 
-  .webview .sobre .container .row {
-    flex-direction: column; /* Coloca a imagem acima do texto */
-    text-align: center; /* Centraliza o texto */
+  .sobre-row {
+    flex-direction: column;
+    text-align: center;
   }
 
-  .webview .sobre .container .c-photo img {
-    width: 150px; /* Imagem menor */
-    margin-right: 0; /* Remove a margem lateral */
-    margin-bottom: 15px; /* Adiciona espaço abaixo da imagem */
+  .sobre-foto img {
+    width: 150px;
+    margin-right: 0;
+    margin-bottom: 15px;
   }
 
-  .webview .sobre .container .c-descricao {
-    text-align: center; /* Centraliza o texto */
+  .sobre-descricao {
+    text-align: center;
   }
 }
 
-/* 📱 Responsividade para telas muito pequenas (celulares pequenos) */
 @media (max-width: 480px) {
-  .webview .sobre .container {
-    padding: 10px; /* Reduz ainda mais o padding */
+  .container-sobre {
+    padding: 10px;
   }
 
-  .webview .sobre .container .title h2 {
-    font-size: 1.4rem; /* Título um pouco menor */
+  .titulo-sobre {
+    font-size: 1.4rem;
   }
 
-  .webview .sobre .container .c-photo img {
-    width: 120px; /* Imagem ainda menor */
+  .sobre-foto img {
+    width: 120px;
   }
 
-  .webview .sobre .container .c-descricao {
-    font-size: 14px; /* Texto um pouco menor */
+  .sobre-descricao {
+    font-size: 14px;
   }
 }

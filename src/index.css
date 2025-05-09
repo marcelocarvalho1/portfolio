@@ -11,7 +11,8 @@ body {
   padding: 0;
   height: 100%;
   font-family: "Ruda", Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-image: radial-gradient(circle at 112.35% 50%, #b643ea 0, #9832e0 25%, #741dd4 50%, #4907c8 75%, #0000bf 100%);
   font-size: 18px;
   color: #333;
 }
+
