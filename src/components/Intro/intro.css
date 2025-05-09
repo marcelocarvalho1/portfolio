@@ -1,43 +1,56 @@
-
-.webview .intro {
+.intro {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: radial-gradient(circle at 112.35% 50%, #b643ea 0, #9832e0 25%, #741dd4 50%, #4907c8 75%, #0000bf 100%);
+  background-image: radial-gradient(
+    circle at 112.35% 50%,
+    #b643ea 0,
+    #9832e0 25%,
+    #741dd4 50%,
+    #4907c8 75%,
+    #0000bf 100%
+  );
   color: #fff;
-}
-
-.webview .intro .container {
   text-align: center;
 }
+
 .topo-image {
   width: 30%;
   height: auto;
 }
 
-.webview .intro .container h1 {
+.intro-title {
   font-size: 2rem;
   margin-top: 20px;
 }
 
-.webview .intro .container p {
+.intro-text {
   font-size: 1rem;
   margin-top: 20px;
 }
 
-.webview .intro .container .btn-portfolio {
+.btn-portfolio {
   background-color: #fff;
   color: #000000;
   border: none;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   padding: 10px 20px;
   border-radius: 5px;
   margin-top: 20px;
   transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
 }
 
-.webview .intro .container .btn-portfolio:hover {
+.btn-portfolio:hover {
   background-color: #000000;
   color: #ffffff;
 }
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+ 
