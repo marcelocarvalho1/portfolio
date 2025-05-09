@@ -1,12 +1,15 @@
-/* habilidades.css */
+
 .habilidades {
-  background-color: #ffffff;
-  padding: 100px;
-  margin: 40px auto;
+  max-width: 90%; 
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .habilidades h2 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 10px 0px 50px;
   color: #000000;
@@ -27,7 +30,7 @@
 }
 
 .tech-item img {
-  max-width: 50px;
+  max-width: 40px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -38,7 +41,7 @@
 
 .tech-item p {
   margin-top: 15px;
-  font-size: 12px;
+  font-size: 11px;
   color: #333;
   line-height: 1.5;
   text-align: center;

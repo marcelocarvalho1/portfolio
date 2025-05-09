@@ -1,31 +1,29 @@
-import React from 'react';
+import React from "react";
 
-import './Sobre.css';
-import FOTO from '../../assets/profile/marcelo.jpeg';
+import "./Sobre.css";
 
 const Sobre = () => {
   return (
-    <section className="sobre">
-      <div className="container">
-        <div className="title">
-          <h2>Sobre mim</h2>
+    <section className="container-sobre">
+      <h2 className="titulo-sobre">Sobre</h2>
+      <div className="sobre-row">
+        <div className="sobre-foto">
+          <img src="/src/assets/profile/marcelo.jpeg" alt="Foto de perfil" />
         </div>
-        <div className="row">
-          <div className="c-photo">
-            <img src={FOTO} alt="Imagem de perfil" />
-          </div>
-          <div className="c-descricao">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              quaerat aspernatur maxime sed accusantium recusandae modi, nihil
-              necessitatibus dignissimos esse vitae placeat reprehenderit
-              blanditiis atque facere autem maiores unde quasi.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              quaerat aspernatur maxime sed accusantium recusandae modi, nihil
-              necessitatibus dignissimos esse vitae placeat reprehenderit
-              blanditiis atque facere autem maiores unde quasi.
-            </p>
-          </div>
+        <div className="sobre-descricao">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            nesciunt ducimus perspiciatis culpa soluta quas, repellendus rerum
+            quibusdam veniam aliquam deserunt, error ex voluptas accusamus ea in
+            atque at iure Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Nihil quibusdam eaque nostrum id aperiam earum explicabo
+            consectetur perspiciatis exercitationem, perferendis inventore
+            molestiae dolor libero. Cumque distinctio ab assumenda odio
+            provident? Neque debitis id accusamus ullam nobis officia aliquid,
+            ipsam, tempora sapiente minus corrupti alias, laborum veritatis
+            numquam! Reiciendis ullam quo corporis quos eaque quae
+            exercitationem sint cumque iure. Perspiciatis, alias.
+          </p>
         </div>
       </div>
     </section>
@@ -33,3 +31,4 @@ const Sobre = () => {
 };
 
 export default Sobre;
+ 

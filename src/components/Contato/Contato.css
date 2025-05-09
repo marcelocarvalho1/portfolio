@@ -1,67 +1,60 @@
-/* contato.css */
-.webview .contato .container {
-  max-width: 500px; /* Reduzi o tamanho máximo */
+.contato .container {
+  max-width: 500px;
   margin: 30px auto;
-  padding: 20px; /* Reduzi o padding interno */
+  padding: 20px;
   background: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
 
-/* Reduzindo o espaçamento do título */
-.webview .contato .container h2 {
+.contato .container h2 {
   text-align: center;
-  font-size: 1.5rem; /* Diminuí o tamanho da fonte */
+  font-size: 1.5rem;
   margin-bottom: 15px;
   color: #000;
   font-weight: bold;
 }
 
-/* Ajustando os campos */
-.webview .contato .container .form-group {
+.contato .container .form-group {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px; /* Menos espaço entre os campos */
+  margin-bottom: 10px;
 }
 
-/* Labels com menos destaque */
-.webview .contato .container .form-group label {
-  font-size: 0.9rem; /* Fonte menor */
+.contato .container .form-group label {
+  font-size: 0.9rem;
   color: #444;
   font-weight: normal;
   margin-bottom: 3px;
 }
 
-/* Inputs menores */
-.webview .contato .container input,
-.webview .contato .container textarea {
+.contato .container input,
+.contato .container textarea {
   width: 100%;
-  padding: 10px; /* Menos espaço interno */
-  border-radius: 6px; /* Borda levemente reduzida */
+  padding: 10px;
+  border-radius: 6px;
   border: 1px solid #ccc;
-  font-size: 0.9rem; /* Texto menor */
+  font-size: 0.9rem;
   background: #f9f9f9;
   transition: all 0.3s ease-in-out;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-/* Melhorando o foco */
-.webview .contato .container input:focus,
-.webview .contato .container textarea:focus {
+.contato .container input:focus,
+.contato .container textarea:focus {
   border-color: #7a3efb;
   background: #fff;
   box-shadow: 0 0 6px rgba(122, 62, 251, 0.2);
   outline: none;
 }
 
-/* Botão menor e mais proporcional */
-.webview .contato .container button {
+.contato .container button {
   width: 100%;
   background: linear-gradient(135deg, #7a3efb, #4907c8);
   color: #fff;
-  padding: 10px; /* Botão menor */
-  font-size: 0.9rem; /* Fonte reduzida */
+  padding: 10px;
+  font-size: 0.9rem;
   font-weight: bold;
   border: none;
   border-radius: 6px;
@@ -72,39 +65,36 @@
   margin-top: 10px;
 }
 
-/* Hover com efeito mais sutil */
-.webview .contato .container button:hover {
+.contato .container button:hover {
   background: linear-gradient(135deg, #8b4efb, #3a06b7);
   box-shadow: 0 5px 12px rgba(33, 157, 116, 0.4);
   transform: scale(1.02);
 }
 
-/* 📱 Melhor responsividade para tablets */
 @media (max-width: 768px) {
-  .webview .contato .container {
+  .contato .container {
     width: 85%;
     padding: 15px;
   }
 }
 
-/* 📱 Melhor responsividade para celulares */
 @media (max-width: 480px) {
-  .webview .contato .container {
+  .contato .container {
     width: 95%;
     padding: 12px;
   }
 
-  .webview .contato .container h2 {
+  .contato .container h2 {
     font-size: 1.3rem;
   }
 
-  .webview .contato .container input,
-  .webview .contato .container textarea {
+  .contato .container input,
+  .contato .container textarea {
     font-size: 0.85rem;
     padding: 8px;
   }
 
-  .webview .contato .container button {
+  .contato .container button {
     font-size: 0.85rem;
     padding: 9px;
   }
