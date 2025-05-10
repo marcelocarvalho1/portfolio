@@ -64,7 +64,7 @@ const Contato = () => {
                 rows="5"
               ></textarea>
             </div>
-            <button id="my-form-button" className="btn btn-success">
+            <button id="my-form-button" className="btn-portfolio btn btn-primary">
               Enviar
             </button>
           </form>

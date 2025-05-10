@@ -9,7 +9,8 @@ const projetos = [
   {
     imagem: PROJETO1,
     titulo: "Drip Store",
-    descricao: "Drip Store é uma loja online especializada na venda de sapatos esportivos...",
+    descricao:
+      "Drip Store é uma loja online especializada na venda de sapatos esportivos...",
     link: "https://digital-store-omega.vercel.app",
   },
   {
@@ -21,7 +22,8 @@ const projetos = [
   {
     imagem: PROJETO3,
     titulo: "Backend Node.js com Prisma, Bcrypt, Express e JWT",
-    descricao: "Backend desenvolvido em Node.js, focado em fornecer uma base sólida...",
+    descricao:
+      "Backend desenvolvido em Node.js, focado em fornecer uma base sólida...",
     link: "https://github.com/marcelocarvalho1/API_NODE_JWT",
   },
   {
@@ -38,7 +40,11 @@ const Projetos = () => {
       <h2 className="section-title">Projetos</h2>
       {projetos.map((projeto, index) => (
         <div className="project-card" key={index}>
-          <img src={projeto.imagem} alt={projeto.titulo} className="project-image" />
+          <img
+            src={projeto.imagem}
+            alt={projeto.titulo}
+            className="project-image"
+          />
           <div className="project-description">
             <h3>{projeto.titulo}</h3>
             <p>{projeto.descricao}</p>

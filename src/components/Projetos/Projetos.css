@@ -21,7 +21,7 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
-.projeto img {
+
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -39,7 +39,7 @@
 
 .project-description h3 {
   font-size: 1.5rem;
-  color: #333;
+  color: #000000;
   margin-bottom: 5px;
 }
 
@@ -51,8 +51,8 @@
 .view-more {
   display: inline-block;
   margin-top: 10px;
-  padding: 5px 10px;
-  background-color: #007bff;
+  padding: 3px 8px;
+  background-color: #050505;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -61,8 +61,13 @@
 }
 
 .view-more:hover {
-  background-color: #0056b3;
+  background-color: #1f1f1f;
 }
+.projeto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
@@ -75,6 +80,7 @@
     max-width: 250px;
   }
 }
+
 @media (max-width: 480px) {
   .project-card {
     padding: 20px;
