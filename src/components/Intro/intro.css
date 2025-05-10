@@ -15,7 +15,7 @@
   height: 50px;
   pointer-events: none;
   animation: floatAnimation 3s ease-in-out infinite;
-  filter: none; /* Garantir que não há filtro alterando a cor */
+  filter: none; 
 }
 
 @keyframes floatAnimation {
@@ -85,6 +85,11 @@
   justify-content: center;
   gap: 1rem;
   margin-top: 20px;
+}
+p{
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #000;
 }
 
 @media (max-width: 768px) {
