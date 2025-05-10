@@ -15,7 +15,7 @@
   height: 50px;
   pointer-events: none;
   animation: floatAnimation 3s ease-in-out infinite;
-  filter: none; 
+  filter: none;
 }
 
 @keyframes floatAnimation {
@@ -38,13 +38,18 @@
   background-image: radial-gradient(
     circle at 112.35% 50%,
     #b643ea 0,
+
     #9832e0 2%,
+
+    #9832e0 25%,
+
     #741dd4 50%,
     #4907c8 75%,
     #0000bf 100%
   );
   color: #fff;
   text-align: center;
+
   position: relative;
 }
 
@@ -86,7 +91,8 @@
   gap: 1rem;
   margin-top: 20px;
 }
-p{
+
+p {
   font-size: 1rem;
   margin-top: 10px;
   color: #000;
