@@ -1,10 +1,7 @@
-/* Fundo geral da seção de projetos */
 .projetos {
   background-color: #f2f2f2;
   padding: 50px 0;
 }
-
-/* Título da seção */
 .section-title {
   font-size: 1.8rem;
   margin: 20px 50px;
@@ -12,15 +9,12 @@
   text-align: center;
   color: #000000;
 }
-
-/* Estilo do cartão de projeto */
 .project-card {
   width: 90%;
   margin: 20px auto;
   display: flex;
-  align-items: center;
   gap: 20px;
-  padding: 80px;
+  padding: 40px;
 
   border-radius: 8px;
   background: linear-gradient(to bottom right, #fcfcfc, #f0f0f0);
@@ -28,12 +22,6 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-
 .project-image {
   width: 420px;
   max-width: 100%;
