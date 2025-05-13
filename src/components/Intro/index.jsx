@@ -11,8 +11,11 @@ import GITHUB from "../../assets/tech/github.svg";
 import BOOTSTRAP from "../../assets/tech/bootstrap.svg";
 import SASS from "../../assets/tech/sass.svg";
 import REACT from "../../assets/tech/react.svg";
+import NODEJS from "../../assets/tech/nodejs.svg";
+import TYPESCRIPT from "../../assets/tech/typescript.svg";
+import EXPRESS from "../../assets/tech/express-js.svg";
 
-const habilidades = [html5, CSS, JS, GIT, GITHUB, BOOTSTRAP, SASS, REACT];
+const habilidades = [html5, CSS, JS, GIT, GITHUB, BOOTSTRAP, SASS, REACT, TYPESCRIPT, NODEJS, EXPRESS];
 
 const floatAnimation = {
   y: [0, -20, 0],

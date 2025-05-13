@@ -4,8 +4,10 @@ import "./Sobre.css";
 
 const Sobre = () => {
   return (
+    <>
+    <h2 className="titulo-sobre">Sobre</h2>
     <section className="container-sobre">
-      <h2 className="titulo-sobre">Sobre</h2>
+    
       <div className="sobre-row">
         <div className="sobre-foto">
           <img src="/src/assets/profile/marcelo.jpeg" alt="Foto de perfil" />
@@ -27,6 +29,8 @@ const Sobre = () => {
         </div>
       </div>
     </section>
+    </>
+      
   );
 };
 
