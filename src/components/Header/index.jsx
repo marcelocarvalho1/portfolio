@@ -1,7 +1,6 @@
 import React from "react";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa";
-import "./Header.css"; // Importando o CSS
-
+import "./Header.css"; 
 const Header = () => {
   return (
     <header className="header">

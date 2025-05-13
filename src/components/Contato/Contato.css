@@ -79,7 +79,7 @@
 
 @media (max-width: 480px) {
   .contato .container {
-    width: 95%;
+    width: 85%;
     padding: 12px;
   }
 
@@ -89,7 +89,7 @@
 
   .contato .container input,
   .contato .container textarea {
-    font-size: 0.85rem;
+    font-size: 0.70rem;
     padding: 8px;
   }
 

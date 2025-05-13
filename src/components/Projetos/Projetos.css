@@ -1,3 +1,7 @@
+.projetos {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
 .section-title {
   font-size: 1.8rem;
   margin: 20px 50px;
@@ -5,28 +9,19 @@
   text-align: center;
   color: #000000;
 }
-
 .project-card {
   width: 90%;
-  height: auto;
   margin: 20px auto;
   display: flex;
-  align-items: center;
   gap: 20px;
-  padding: 80px;
-  border: 1px solid #ddd;
+  padding: 40px;
+
   border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom right, #fcfcfc, #f0f0f0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
 .project-image {
   width: 420px;
   max-width: 100%;
@@ -62,10 +57,6 @@
 
 .view-more:hover {
   background-color: #1f1f1f;
-}
-.projeto img {
-  width: 100%;
-  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
