@@ -16,6 +16,7 @@
   pointer-events: none;
   animation: floatAnimation 3s ease-in-out infinite;
   filter: none;
+  margin-right: auto;
 }
 
 @keyframes floatAnimation {
@@ -110,6 +111,7 @@ p {
   .icone-flutuante {
     width: 40px;
     height: 40px;
+    margin-left: 30px;
   }
 
   .intro {
