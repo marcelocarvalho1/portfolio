@@ -3,7 +3,7 @@ import "./Projetos.css";
 import PROJETO1 from "../../assets/projetos/image.png";
 import PROJETO2 from "../../assets/projetos/coffee.png";
 import PROJETO3 from "../../assets/projetos/node.js.png";
-import PROJETO4 from "../../assets/projetos/img-4.svg";
+import PROJETO4 from "../../assets/projetos/sistema-de-gestao.png";
 
 const projetos = [
   {
@@ -29,8 +29,8 @@ const projetos = [
   {
     imagem: PROJETO4,
     titulo: "Outfit Commerce",
-    descricao: "Uma API de E-Commerce desenvolvida em Python...",
-    link: "#",
+    descricao: "Este projeto é um sistema simples para gerenciamento de vendas, estoque e clientes, desenvolvido com React (Vite) no frontend e Node.js (Express) no backend, utilizando SQLite como banco de dados....",
+    link: "https://github.com/marcelocarvalho1/sistema-de-gestao",
   },
 ];
 

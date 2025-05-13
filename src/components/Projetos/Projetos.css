@@ -17,13 +17,14 @@
   padding: 40px;
 
   border-radius: 8px;
-  background: linear-gradient(to bottom right, #fcfcfc, #f0f0f0);
+   background-color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
 .project-image {
   width: 420px;
+  height: 250px;
   max-width: 100%;
   border-radius: 8px;
 }
@@ -78,9 +79,19 @@
     gap: 10px;
   }
 
+  .section-title{
+    font-size: 1.4rem;
+    margin-top: auto;
+  }
+
   .project-image {
     width: 100%;
-    max-width: 200px;
+    max-width: 400px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
   .project-description h3 {
