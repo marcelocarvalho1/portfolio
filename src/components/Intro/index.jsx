@@ -26,6 +26,7 @@ const floatAnimation = {
 const Intro = () => {
   return (
     <section className="intro">
+
       <div className="container">
         <img src={Img} alt="imagem" className="topo-image" />
         <h1>
