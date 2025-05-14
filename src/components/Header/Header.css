@@ -1,13 +1,13 @@
 .header {
   width: 100%;
   padding: 16px;
-  background-color: #fff;
+  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: flex-end;
   position: relative;
   z-index: 1000;
-  border-radius: 0px 0px 16px 16px;
+  background-color: #fff;
 }
 
 .social-icons {
