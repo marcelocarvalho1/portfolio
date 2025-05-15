@@ -23,7 +23,7 @@ const projetos = [
     imagem: PROJETO3,
     titulo: "Backend Node.js com Prisma, Bcrypt, Express e JWT",
     descricao:
-      "Backend desenvolvido em Node.js, focado em fornecer uma base sólida...",
+      "Este projeto é um backend desenvolvido em Node.js, focado em fornecer uma base sólida para aplicações web que necessitam de autenticação segura e gerenciamento de usuários. Utilizando tecnologias modernas como Prisma para interação com o banco de dados, Bcrypt para hash de senhas, Express para criação de APIs e Jsonwebtoken para autenticação via JWT, este projeto é ideal para quem busca uma solução robusta e escalável.",
     link: "https://github.com/marcelocarvalho1/API_NODE_JWT",
   },
   {
