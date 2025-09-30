@@ -5,21 +5,21 @@ const Header = () => {
   const socials = [
     {
       icon: FaWhatsapp,
-      href: "https://wa.me/5511999999999",
+      href: "https://wa.me/5585921918622",
       label: "WhatsApp",
-      color: "#25D366", // verde oficial do WhatsApp
+      color: "#25D366",
     },
     {
       icon: FaLinkedin,
-      href: "https://linkedin.com/in/yourprofile",
+      href: "https://www.linkedin.com/in/a-marcelo-carvalho/",
       label: "LinkedIn",
-      color: "#0A66C2", // azul oficial do LinkedIn
+      color: "#0A66C2",
     },
     {
       icon: FaGithub,
-      href: "https://github.com/yourusername",
+      href: "https://github.com/marcelocarvalho1",
       label: "GitHub",
-      color: "#181717", // preto oficial do GitHub
+      color: "#181717",
     },
   ];
 
@@ -57,9 +57,8 @@ const Header = () => {
               <Button
                 key={social.label}
                 variant="ghost"
-                size="icon"
                 asChild
-                className="transition-none"
+                className="transition-none p-0"
               >
                 <a
                   href={social.href}
@@ -67,7 +66,10 @@ const Header = () => {
                   rel="noopener noreferrer"
                   aria-label={social.label}
                 >
-                  <Icon className="h-7 w-7" style={{ color: social.color }} />
+                  <Icon
+                    className="h-10 w-10 min-w-[2.5rem] min-h-[1.6rem]"
+                    style={{ color: social.color }}
+                  />
                 </a>
               </Button>
             );

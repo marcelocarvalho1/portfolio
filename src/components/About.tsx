@@ -9,7 +9,8 @@ import {
   FaGit,
   FaLinux,
 } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiTypescript } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiExpress } from "react-icons/si";
+
 
 const About = () => {
   const technologies = [
@@ -22,6 +23,7 @@ const About = () => {
     { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     { name: "Node.js", icon: FaNodeJs, color: "#339933" },
+    { name: "Express", icon: SiExpress, color: "#000000" },
     { name: "Git", icon: FaGit, color: "#F05032" },
     { name: "Linux", icon: FaLinux, color: "#0a0a0a" },
   ];
@@ -31,7 +33,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-4xl md:text-3xl font-bold text-center mb-12">
-            Sobre Mim
+            Sobre mim
           </h3>
 
           <div className="grid md:grid-cols-[2fr_1fr] gap-10 items-center mb-16">
