@@ -1,4 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
@@ -7,65 +13,71 @@ const Projects = () => {
   const projects = [
     {
       title: "E-commerce Platform",
-      description: "Plataforma completa de e-commerce com React, Node.js e PostgreSQL. Sistema de pagamentos, gestão de produtos e dashboard administrativo.",
+      description:
+        "Plataforma completa de e-commerce com React, Node.js e PostgreSQL. Sistema de pagamentos, gestão de produtos e dashboard administrativo.",
       image: "🛒",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
       liveUrl: "https://projeto1.com",
-      githubUrl: "https://github.com/user/projeto1"
+      githubUrl: "https://github.com/user/projeto1",
     },
     {
       title: "Dashboard Analytics",
-      description: "Dashboard interativo para análise de dados com gráficos em tempo real, filtros avançados e exportação de relatórios.",
+      description:
+        "Dashboard interativo para análise de dados com gráficos em tempo real, filtros avançados e exportação de relatórios.",
       image: "📊",
       technologies: ["Next.js", "TypeScript", "Chart.js", "Prisma"],
       liveUrl: "https://projeto2.com",
-      githubUrl: "https://github.com/user/projeto2"
+      githubUrl: "https://github.com/user/projeto2",
     },
     {
       title: "App de Tarefas",
-      description: "Aplicativo de produtividade com autenticação, sincronização em tempo real e notificações push.",
+      description:
+        "Aplicativo de produtividade com autenticação, sincronização em tempo real e notificações push.",
       image: "✅",
       technologies: ["React Native", "Firebase", "Redux", "Node.js"],
       liveUrl: "https://projeto3.com",
-      githubUrl: "https://github.com/user/projeto3"
+      githubUrl: "https://github.com/user/projeto3",
     },
     {
       title: "API REST Completa",
-      description: "API robusta com autenticação JWT, documentação Swagger, testes automatizados e deploy via Docker.",
+      description:
+        "API robusta com autenticação JWT, documentação Swagger, testes automatizados e deploy via Docker.",
       image: "🔧",
       technologies: ["Node.js", "Express", "MongoDB", "Docker"],
       liveUrl: "https://api.projeto4.com",
-      githubUrl: "https://github.com/user/projeto4"
+      githubUrl: "https://github.com/user/projeto4",
     },
     {
       title: "Landing Page Responsiva",
-      description: "Landing page moderna e responsiva para empresa de tecnologia com animações CSS e otimização SEO.",
+      description:
+        "Landing page moderna e responsiva para empresa de tecnologia com animações CSS e otimização SEO.",
       image: "🌐",
       technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
       liveUrl: "https://projeto5.com",
-      githubUrl: "https://github.com/user/projeto5"
+      githubUrl: "https://github.com/user/projeto5",
     },
     {
       title: "Chat em Tempo Real",
-      description: "Aplicação de chat com salas privadas, histórico de mensagens e integração com Socket.io.",
+      description:
+        "Aplicação de chat com salas privadas, histórico de mensagens e integração com Socket.io.",
       image: "💬",
       technologies: ["Vue.js", "Socket.io", "Express", "Redis"],
       liveUrl: "https://projeto6.com",
-      githubUrl: "https://github.com/user/projeto6"
-    }
+      githubUrl: "https://github.com/user/projeto6",
+    },
   ];
 
   return (
     <section id="projects" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12 text-primary">
-            Meus Projetos
-          </h2>
-          
+          <h3 className="text-4xl md:text-3xl font-bold text-center mb-12">
+            Meus projetos
+          </h3>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
-              <Card 
+              <Card
                 key={index}
                 className="bg-card/50 backdrop-blur-sm border border-glass-border overflow-hidden"
               >
@@ -80,11 +92,11 @@ const Projects = () => {
                     {project.description}
                   </CardDescription>
                 </CardHeader>
-                
+
                 <CardContent className="space-y-4">
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.map((tech) => (
-                      <span 
+                      <span
                         key={tech}
                         className="px-2 py-1 bg-primary/10 text-primary text-xs rounded-full border border-primary/20"
                       >
@@ -92,26 +104,34 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div className="flex gap-2 pt-4">
-                    <Button 
-                      size="sm" 
+                    <Button
+                      size="sm"
                       className="flex-1 bg-primary text-primary-foreground"
                       asChild
                     >
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <ExternalLink className="w-4 h-4 mr-2" />
                         Ver Projeto
                       </a>
                     </Button>
-                    
-                    <Button 
-                      size="sm" 
+
+                    <Button
+                      size="sm"
                       variant="outline"
                       className="border-2"
                       asChild
                     >
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <FaGithub className="w-4 h-4" />
                       </a>
                     </Button>
