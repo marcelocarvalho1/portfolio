@@ -27,7 +27,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl font-bold mb-6 text-primary">
+          <h1 className="text-4xl font-bold mb-6 text-primary">
             Olá, sou Marcelo Carvalho
           </h1>
 
@@ -38,17 +38,16 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Button
               onClick={handleDownloadCV}
-              size="lg"
-              className="bg-primary text-primary-foreground text-lg px-8 py-6"
+              size="sm"
+              className="bg-primary text-primary-foreground text-sm px-4 py-2"
             >
-              <Download className="mr-2 h-5 w-5" />
+              <Download className="mr-2 h-4 w-4" />
               Download CV
             </Button>
           </div>
 
           <div>
             <ArrowDown className="h-8 w-8 mx-auto text-muted-foreground animate-pulse-down" />
-
           </div>
         </div>
       </div>
