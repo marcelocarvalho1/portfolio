@@ -66,7 +66,7 @@ const About = () => {
               <img
                 src="/marcelo.jpeg"
                 alt="Foto de Marcelo Carvalho"
-                className="w-64 h-64 md:w-80 md:h-80 object-cover object-[0%_25%] rounded-full border-primary shadow-lg"
+                className="w-64 h-64 md:w-60 md:h-60 object-cover object-[0%_25%] rounded-full border-primary shadow-lg"
               />
             </div>
           </div>
