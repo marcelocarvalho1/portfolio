@@ -21,7 +21,6 @@ const Hero = () => {
       {/* Fundo sólido em azul claro */}
       <div className="absolute inset-0 bg-primary/10"></div>
 
-      {/* Elementos flutuantes removidos gradientes */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full blur-xl"></div>
       <div className="absolute bottom-32 right-16 w-32 h-32 bg-primary/10 rounded-full blur-xl"></div>
 

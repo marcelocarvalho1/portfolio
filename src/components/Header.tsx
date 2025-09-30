@@ -5,19 +5,19 @@ const Header = () => {
   const socials = [
     {
       icon: FaWhatsapp,
-      href: "https://wa.me/5511999999999",
+      href: "https://wa.me/5585921918622",
       label: "WhatsApp",
       color: "#25D366",
     },
     {
       icon: FaLinkedin,
-      href: "https://linkedin.com/in/yourprofile",
+      href: "https://www.linkedin.com/in/a-marcelo-carvalho/",
       label: "LinkedIn",
       color: "#0A66C2",
     },
     {
       icon: FaGithub,
-      href: "https://github.com/yourusername",
+      href: "https://github.com/marcelocarvalho1",
       label: "GitHub",
       color: "#181717",
     },
