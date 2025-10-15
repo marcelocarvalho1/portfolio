@@ -48,31 +48,28 @@ const About = () => {
 
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Atuo há mais de 7 anos na área de Tecnologia da Informação,
-                  com experiência em suporte técnico, infraestrutura e
-                  desenvolvimento de software em empresas do setor de
-                  tecnologia.
+                  Com mais de sete anos de experiência em Tecnologia da
+                  Informação, construí uma trajetória sólida atuando nas áreas
+                  de suporte, infraestrutura e desenvolvimento de sistemas.
                 </p>
 
                 <p>
-                  Atualmente, sou Analista de TI, atuando com desenvolvimento e
-                  qualidade de software, participando ativamente da criação,
-                  manutenção e testes de aplicações web.
+                  Ao longo desse tempo, aprimorei minha capacidade de resolver
+                  problemas complexos, otimizar processos e contribuir para a
+                  entrega de soluções eficientes e escaláveis.
                 </p>
 
                 <p>
-                  Sou formado em Análise e Desenvolvimento de Sistemas e
-                  pós-graduado em Engenharia de Software. No momento, estou
-                  cursando o programa Full Cycle, com foco em Arquitetura de
-                  Software, Docker, Git, APIs REST e Programação Orientada a
-                  Objetos.
+                  Sou graduado em Análise e Desenvolvimento de Sistemas e
+                  pós-graduado em Engenharia de Software, o que me proporcionou
+                  uma base técnica consistente e uma visão ampla sobre o ciclo
+                  de vida de aplicações.
                 </p>
 
                 <p>
-                  Tenho estudado e aplicado tecnologias como HTML, CSS,
-                  JavaScript, TypeScript, React, Next.js, Node.js, Express e
-                  Tailwind CSS, sempre buscando unir boas práticas, performance
-                  e experiência do usuário em cada projeto.
+                  Atualmente, sigo aprofundando meus conhecimentos em
+                  arquitetura de software e boas práticas de desenvolvimento,
+                  com foco em qualidade, performance e evolução contínua.
                 </p>
               </div>
             </div>
