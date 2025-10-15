@@ -14,6 +14,7 @@ import PROJETO1 from "../assets/image.png";
 import PROJETO2 from "../assets/coffee.png";
 import PROJETO3 from "../assets/node.js.png";
 import PROJETO4 from "../assets/sistema-de-gestao.png";
+import PROJETO5 from "../assets/supremus.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -51,6 +52,14 @@ const Projects = () => {
       technologies: ["React", "Vite", "Node.js", "Express", "SQLite"],
       liveUrl: "https://github.com/marcelocarvalho1/sistema-de-gestao",
       githubUrl: "https://github.com/marcelocarvalho1/sistema-de-gestao",
+    },
+    {
+      title: "Supremus Açaí (WordPress)",
+      description:
+        "Desenvolvimento de site institucional em WordPress, com foco em identidade visual, SEO e desempenho otimizado. Projeto responsivo e totalmente gerenciável via painel WordPress.",
+      image: PROJETO5,
+      technologies: ["WordPress", "PHP", "Elementor", "CSS"],
+      liveUrl: "https://supremusacai.com/",
     },
   ];
 
@@ -115,20 +124,23 @@ const Projects = () => {
                         </a>
                       </Button>
 
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="border-2"
-                        asChild
-                      >
-                        <a
-                          href={project.githubUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
+                      {/* Mostra o botão do GitHub apenas se existir githubUrl */}
+                      {project.githubUrl && (
+                        <Button
+                          size="sm"
+                          variant="outline"
+                          className="border-2"
+                          asChild
                         >
-                          <FaGithub className="w-4 h-4" />
-                        </a>
-                      </Button>
+                          <a
+                            href={project.githubUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <FaGithub className="w-4 h-4" />
+                          </a>
+                        </Button>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
