@@ -48,20 +48,31 @@ const About = () => {
 
               <div className="space-y-4 text-muted-foreground text-lg leading-relaxed">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been.
+                  Atuo há mais de 7 anos na área de Tecnologia da Informação,
+                  com experiência em suporte técnico, infraestrutura e
+                  desenvolvimento de software em empresas do setor de
+                  tecnologia.
                 </p>
 
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
+                  Atualmente, sou Analista de TI, atuando com desenvolvimento e
+                  qualidade de software, participando ativamente da criação,
+                  manutenção e testes de aplicações web.
                 </p>
 
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
+                  Sou formado em Análise e Desenvolvimento de Sistemas e
+                  pós-graduado em Engenharia de Software. No momento, estou
+                  cursando o programa Full Cycle, com foco em Arquitetura de
+                  Software, Docker, Git, APIs REST e Programação Orientada a
+                  Objetos.
+                </p>
+
+                <p>
+                  Tenho estudado e aplicado tecnologias como HTML, CSS,
+                  JavaScript, TypeScript, React, Next.js, Node.js, Express e
+                  Tailwind CSS, sempre buscando unir boas práticas, performance
+                  e experiência do usuário em cada projeto.
                 </p>
               </div>
             </div>
